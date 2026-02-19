@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-route53resolver`](https://www.npmjs.com/package/@aws-sdk/client-route53resolver/v/3.525.0).
+[`@aws-sdk/client-route53resolver`](https://www.npmjs.com/package/@aws-sdk/client-route53resolver/v/3.529.1).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.525.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.529.1/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-JVM2j9zWbCZTz6R90m3toUJ2c+L58981XKrR2BUWGrsSi6ZcWqCfRsyuDPz4EfwI
+sha384-pBtf78fpGG7EajvKXzPzWinrE8pI+GLDVPco3ct+WnzXTBDJXDsHH4/4WKf3Qhmg
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-route53resolver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.525.0/index.min.mjs"
+            "@aws-sdk/client-route53resolver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.529.1/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.525.0/index.min.mjs": "sha384-JVM2j9zWbCZTz6R90m3toUJ2c+L58981XKrR2BUWGrsSi6ZcWqCfRsyuDPz4EfwI"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.529.1/index.min.mjs": "sha384-pBtf78fpGG7EajvKXzPzWinrE8pI+GLDVPco3ct+WnzXTBDJXDsHH4/4WKf3Qhmg"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-route53resolver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.525.0/index.min.mjs"
+                        "@aws-sdk/client-route53resolver": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.529.1/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.525.0/index.min.mjs": "sha384-JVM2j9zWbCZTz6R90m3toUJ2c+L58981XKrR2BUWGrsSi6ZcWqCfRsyuDPz4EfwI"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-route53resolver@3.529.1/index.min.mjs": "sha384-pBtf78fpGG7EajvKXzPzWinrE8pI+GLDVPco3ct+WnzXTBDJXDsHH4/4WKf3Qhmg"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.525.0`)
+* Always pin to a specific version (`@3.529.1`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-route53resolver/blob/refs/tags/3.525.0/LICENSE
+https://github.com/cloud-sdk-builds/client-route53resolver/blob/refs/tags/3.529.1/LICENSE
 ```
 
 ---
